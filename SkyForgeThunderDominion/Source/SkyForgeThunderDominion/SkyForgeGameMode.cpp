@@ -1,9 +1,10 @@
 #include "SkyForgeGameMode.h"
 
 #include "SkyForgePlayerController.h"
+#include "SkyForgeTankPawn.h"
 
 ASkyForgeGameMode::ASkyForgeGameMode()
 {
-    DefaultPawnClass = nullptr;
+    DefaultPawnClass = ASkyForgeTankPawn::StaticClass();
     PlayerControllerClass = ASkyForgePlayerController::StaticClass();
 }

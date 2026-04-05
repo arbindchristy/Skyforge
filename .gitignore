@@ -1,0 +1,14 @@
+# Unreal generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+
+# Rider/VSCode
+.idea/
+.vscode/
+
+# macOS/windows noise
+.DS_Store
+Thumbs.db

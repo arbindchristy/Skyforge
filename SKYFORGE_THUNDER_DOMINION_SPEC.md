@@ -259,6 +259,59 @@ A vast red-rock valley with chokepoint bridges, dry grass basins, and elevated S
 - No random stat-affecting loot boxes.
 - Duplicate protection for owned cosmetics.
 
+---
+
+## 6) Phase 1 Implementation Plan (Foundation Milestone)
+
+### Phase 1 Goal
+Deliver a production-ready vertical foundation for *SkyForge: Thunder Dominion* that proves the core fantasy loop:
+**command from top-down → Soul-Switch into unit → execute combat action → return to command flow**.
+
+### Scope (In)
+1. **Core Playable Loop**
+   - Top-down command camera with map navigation and unit selection.
+   - Soul-Switch transition pipeline targeting sub-500ms handoff.
+   - Return-to-command flow from possessed unit.
+2. **Initial Unit Set (4 of 8 launch units)**
+   - F-15C Eagle
+   - F-16C Viper
+   - M1A2-equivalent MBT
+   - Infantry Fireteam Alpha
+3. **Combat Baseline**
+   - Primary weapons, lock-on flow, countermeasures, and damage model v1.
+   - EMP missile gameplay effect implementation (8s disable rules).
+4. **Map + Objectives**
+   - Desert Canyon blockout to art-pass-ready alpha.
+   - Three-point Conquest ruleset (A/B/C subset from full design).
+5. **UI/HUD v1**
+   - Top-down command HUD skeleton.
+   - Soul-Switch radial selector.
+   - In-unit reticle, ammo rack, and target card.
+6. **Technical Foundation**
+   - Dedicated server session bootstrap for internal multiplayer tests.
+   - Replication relevance/LOD scaffolding for 200-entity scale target.
+   - Telemetry hooks for TTK, ability usage, and switch frequency.
+
+### Scope (Out)
+- Full 8v8 live operations.
+- Ranked Arena and seasonal systems.
+- Monetization storefront production wiring.
+- Campaign mission cinematics and full narrative stack.
+- Final art polish and full destruction fidelity pass.
+
+### Exit Criteria (Definition of Done)
+- 10-minute internal Conquest match playable end-to-end without blockers.
+- Soul-Switch success rate ≥ 98% with median transition time under 500ms.
+- Stable dedicated-server session for 16 players in test environment.
+- 60 FPS on target high-end device profile, scalable profile operational on mid-tier.
+- Core telemetry events emitted and visible in analytics dashboard.
+
+### Phase 1 Deliverables
+- Playable internal alpha build (`Phase1-Alpha`).
+- Technical test report (network performance + frame pacing).
+- Balance snapshot for the initial 4-unit roster.
+- Updated risk register and scope recommendation for Phase 2.
+
 ### Suggested Launch SKUs
 - Starter Pack ($4.99): 1 pilot skin + 1 jet skin + currency.
 - Seasonal Pass ($9.99): 50 tiers cosmetics + boosters.

@@ -15,7 +15,8 @@ public class SkyForgeThunderDominion : ModuleRules
             "EnhancedInput",
             "AIModule",
             "NavigationSystem",
-            "Niagara"
+            "Niagara",
+            "UMG"
         });
     }
 }

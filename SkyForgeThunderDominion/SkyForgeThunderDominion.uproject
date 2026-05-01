@@ -14,8 +14,7 @@
     { "Name": "EnhancedInput", "Enabled": true },
     { "Name": "ChaosVehiclesPlugin", "Enabled": true },
     { "Name": "Niagara", "Enabled": true },
-    { "Name": "GeometryCollectionPlugin", "Enabled": true },
-    { "Name": "AIModule", "Enabled": true }
+    { "Name": "GeometryCollectionPlugin", "Enabled": true }
   ],
   "TargetPlatforms": [
     "Android",

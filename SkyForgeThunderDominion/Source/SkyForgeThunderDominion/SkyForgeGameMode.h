@@ -11,4 +11,9 @@ class SKYFORGETHUNDERDOMINION_API ASkyForgeGameMode : public AGameModeBase
 
 public:
     ASkyForgeGameMode();
+
+    virtual void StartPlay() override;
+
+private:
+    void SpawnPrototypeUnitsIfNeeded(class ASkyForgePlayerController* PlayerController);
 };
